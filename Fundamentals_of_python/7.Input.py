@@ -1,0 +1,10 @@
+a=int(input("Enter number 1:"))
+b=int(input("Enter number 2:"))
+
+print("Number 'a' is :",a)
+print("Number 'b' is :",b)
+print("Sum is" ,a+b)
+print("Average in 2 number:",a+b/2)
+print("Substruct in 2 number:",a-b)
+print("Divide in 2 number:",a/b)
+print("Divide in 2 number:",a//b)
