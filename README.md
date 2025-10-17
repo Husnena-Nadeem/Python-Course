@@ -6,7 +6,7 @@
 a.When something is clearly said or written.
 b.you don't have to guess the meaning.
 c.Everything is direct and clear.
-<b>Example:</b>  int x=10;
+<b>Example:</b>  int x=10;<br>
 <b>Implicit:</b><br>
 a.When something is not said directly , but you can understand it from context.<br>
 b.The meaning is hidden or guessed.<br>
