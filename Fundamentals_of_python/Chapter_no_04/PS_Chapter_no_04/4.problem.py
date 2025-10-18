@@ -1,0 +1,26 @@
+# s=set()
+# n=input("Enter the number of 1:")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# n=input("Enter the number:")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# n=input("Enter the number :")
+# s.add(int(n))
+# print(s,type(s),len(s))
+
+
+
+
+s=set()
+s.add(18)
+s.add("18")
+print(s)
