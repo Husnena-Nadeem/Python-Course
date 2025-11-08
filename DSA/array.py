@@ -24,6 +24,8 @@ if 5 in arr:
     print(arr.index(7))
 
 # reversed
-
+arr=[6,7,8,9]
+arr.reverse()
+print(arr[::-1])
 
 
