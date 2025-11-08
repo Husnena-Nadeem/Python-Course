@@ -2,4 +2,13 @@ v=[]
 v.append(10)
 v.append(20)
 v.append(30)
+v.append(60)
 print("Vector:",v)
+#Access elements
+print(v[0])
+print(v[1])
+print(v[2])
+#Delete element
+v=[1,2,3,7,9,12]
+v.pop()
+print("delete element",v)
