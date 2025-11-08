@@ -63,19 +63,25 @@
 
 
 
-Employee=[range(20)]
+# Employee=[range(20)]
 
-print("Employee Enter your password:")
-for Employee in  range(20):
-    print(f"Enter the password:{Employee[i]}")
-    password=int(input(F"Enter the password:"))
-    if password==("@&!" or "123456789" or "alphabit"):
-        print("Strong password:")
-    elif password==( "123456789" or "alphabit"):
-        print("Medion password:")
-    elif password==("123456789"):
-        print("Weak password")
+# print("Employee Enter your password:")
+# for Employee in  range(20):
+#     print(f"Enter the password:{Employee[i]}")
+#     password=int(input(F"Enter the password:"))
+#     if password==("@&!" or "123456789" or "alphabit"):
+#         print("Strong password:")
+#     elif password==( "123456789" or "alphabit"):
+#         print("Medion password:")
+#     elif password==("123456789"):
+#         print("Weak password")
 
+
+arr=[4,2,7,8,1,2,5]
+arr.reverse()
+print("reverse:",arr)
 
     
 
+#smallest and largest number of array
+arr
