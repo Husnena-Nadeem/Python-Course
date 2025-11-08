@@ -21,4 +21,9 @@ print(arr)
 arr=[3,5,7]
 if 5 in arr:
     print("Found")
+    print(arr.index(7))
+
+# reversed
+
+
 
