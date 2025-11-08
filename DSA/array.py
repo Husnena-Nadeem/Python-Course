@@ -44,6 +44,7 @@ while i<j:
     j-=1
 print(arr)
 #prefix sum
+#jb hum index tak ka total chia ho tha ha
 arr=[1,2,3,4,5]
 prefix=[0]*len(arr)
 prefix[0]=arr[0]
@@ -51,3 +52,19 @@ prefix[0]=arr[0]
 for i in range(1,len(arr)):
     prefix[i]=prefix[i-1]+arr[i]
 print("Prefix sum Array:",prefix)
+#multiple Queries (Fast repeted calculation)
+arr=[1,2,3,6,8,11]
+prefix=[0]*len(arr)
+prefix[0]=arr[0]
+
+for i in range(1,len(arr)):
+    prefix[i]=prefix[i-1]+arr[i]
+
+queries=[(0,2),(1,4),(2,5)]
+
+for L,R in queries:
+    if L ==0:
+        print(f"Sum of {L}-{R}:",prefix[R])
+    else:
+        print(f"Sum of {L}-{R}:",prefix[R]-prefix[L-1])
+
