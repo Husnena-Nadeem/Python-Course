@@ -26,3 +26,24 @@ for i in range(len(num)):
         current_sum+=num[j]
         if current_sum==target:
             print(f"subarrat for index {i} to {j}:" ,num[i:j+1])
+
+
+def is_palindrome(x):
+    x_str=str(x)
+    return x_str==x_str[::-1]
+
+print(is_palindrome(121))
+
+#Example no 02
+def is_palindrome(x):
+    x_str=str(x)
+    return x_str==x_str[::-1]
+
+print (is_palindrome(-121))
+
+#Example no 0
+def is_palindrome(x):
+    x_str=str(x)
+    return x_str==x_str[::-1]
+
+print (is_palindrome(10))
