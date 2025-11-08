@@ -67,4 +67,13 @@ for L,R in queries:
         print(f"Sum of {L}-{R}:",prefix[R])
     else:
         print(f"Sum of {L}-{R}:",prefix[R]-prefix[L-1])
+#Find all continuous subarrays:
+arr=[1,2,3,4,2]
+target=5
 
+for i in range(len(arr)):
+    current_sum=0
+    for j in range(i,len(arr)):
+        current_sum+=target
+        if current_sum==target:
+            print(f"subarray from index{i} to {j}:",arr[i:j+1])
