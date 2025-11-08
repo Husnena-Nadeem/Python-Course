@@ -12,6 +12,10 @@ arr.append(4)
 print("Append",arr)
 arr.insert(2,10)
 print("insert",arr)
-
-    
+#Deletion
+arr=[9,0,8,2,8]
+arr.pop()
+arr.pop(1)
+print(arr)
+# arr.remove(1)
 
