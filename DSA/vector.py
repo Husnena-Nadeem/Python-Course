@@ -19,3 +19,8 @@ print(v)
 #Reverse Vector
 v.reverse()
 print(v)
+#Traversal(loop)
+employ=[123,456,273,950,678]
+for x in v:
+    print(x,end=" ")
+    
