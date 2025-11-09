@@ -38,4 +38,3 @@ largest=max(v3)
 v3.remove(largest)
 second_largest=max(v3)
 print("Second largest number:",second_largest)   
-
