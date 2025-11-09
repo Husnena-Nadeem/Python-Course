@@ -12,3 +12,10 @@ print(v[2])
 v=[1,2,3,7,9,12]
 v.pop()
 print("delete element",v)
+#insert at specific position
+v=[16,17]
+v.insert(0,15)
+print(v)
+#Reverse Vector
+v.reverse()
+print(v)
