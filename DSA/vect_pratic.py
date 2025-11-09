@@ -25,3 +25,9 @@ v1=[6,7,8,9]
 v1.reverse()
 print(v1)
 #count event numbers and odd numbers
+v2=[1,8,9,67,6,2,8,19,10]
+for x in v2:
+    if x%2==0:
+        print(f"Number is even: {x}")
+    else:
+        print(f"Numbers is odd: {x}")
