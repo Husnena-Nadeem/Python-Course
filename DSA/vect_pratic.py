@@ -37,4 +37,10 @@ v3=[3,4,6,7,834,675,4]
 largest=max(v3)
 v3.remove(largest)
 second_largest=max(v3)
-print("Second largest number:",second_largest)   
+print("Second largest number:",second_largest)
+#ascending or decending 
+v=[2,4,10,45,6,80,90]
+v.sort()
+print("Acending:",v)
+v.sort(reverse=True)
+print("Descending:",v)
