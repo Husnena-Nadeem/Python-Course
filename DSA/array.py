@@ -52,7 +52,7 @@ prefix[0]=arr[0]
 for i in range(1,len(arr)):
     prefix[i]=prefix[i-1]+arr[i]
 print("Prefix sum Array:",prefix)
-#multiple Queries (Fast repeted calculation)
+# #multiple Queries (Fast repeted calculation)
 arr=[1,2,3,6,8,11]
 prefix=[0]*len(arr)
 prefix[0]=arr[0]
@@ -77,3 +77,4 @@ for i in range(len(arr)):
         current_sum+=target
         if current_sum==target:
             print(f"subarray from index{i} to {j}:",arr[i:j+1])
+            
