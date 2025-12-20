@@ -71,8 +71,19 @@ for i in range(0,len(l)):
     print(l)
 
 #factorial of the number
-n=int(input("Enter the number:"))
-product=1
-for i in range(1,n+1):
-    product=product*i
-print(f"factorial of the number{n}:\t{product}")   
+# n=int(input("Enter the number:"))
+# product=1
+# for i in range(1,n+1):
+#     product=product*i
+# print(f"factorial of the number{n}:\t{product}")   
+
+#function 
+def add():
+    a=int(input("Enter the number:"))
+    b=int(input("Enter the number:"))
+    c=int(input("Enter the number:"))
+    sum=0
+    sum=a+b+c
+    print(f" sum of this number is :  {sum}")
+
+add()
