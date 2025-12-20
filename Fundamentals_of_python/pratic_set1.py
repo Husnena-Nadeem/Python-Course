@@ -46,3 +46,15 @@ print(Data.items())
 
 Data.pop("Abeer")
 print(Data.items())
+
+#while loop
+i=1
+while(i<=10):
+    print(i)
+    i+=1
+
+i=1
+n=int(input("Enter the number:"))
+while(i<=10):
+    print(f"{n}x{i}={n*i}")
+    i+=1
