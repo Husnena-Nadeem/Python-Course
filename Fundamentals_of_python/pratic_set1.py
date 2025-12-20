@@ -69,3 +69,10 @@ while(i<=10):
 l=[1,2992,38,29,27920,28,739,800]
 for i in range(0,len(l)):
     print(l)
+
+#factorial of the number
+n=int(input("Enter the number:"))
+product=1
+for i in range(1,n+1):
+    product=product*i
+print(f"factorial of the number{n}:\t{product}")   
