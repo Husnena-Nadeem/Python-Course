@@ -84,6 +84,8 @@ def add():
     c=int(input("Enter the number:"))
     sum=0
     sum=a+b+c
+    avg=sum/3
     print(f" sum of this number is :  {sum}")
+    print(f" Average of this number is :  {avg}")
 
 add()
