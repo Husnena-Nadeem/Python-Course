@@ -53,9 +53,19 @@ while(i<=10):
     print(i)
     i+=1
 
-i=1
-n=int(input("Enter the number:"))
-while(i<=10):
-    print(f"{n}x{i}={n*i}")
-    i+=1
+# i=1
+# n=int(input("Enter the number:"))
+# while(i<=10):
+#     print(f"{n}x{i}={n*i}")
+#     i+=1
 
+#for loop 
+# i=0
+# for i in range(1,15):
+#     print(i)
+
+# for i in range(0,100,5):
+#     print(i)
+l=[1,2992,38,29,27920,28,739,800]
+for i in range(0,len(l)):
+    print(l)
