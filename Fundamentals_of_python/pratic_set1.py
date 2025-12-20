@@ -27,3 +27,22 @@ print(len(tub))
 print(type(tub))
 t = tub.index("animal")
 print(t)
+
+#dictionary
+Data={
+    "huanena":90,
+    "sara" :80,
+    "Abeer" :95,
+    "Tazeen":90
+}
+print(Data)
+print(type(Data))
+print(Data["Abeer"])
+print(Data.items())
+print(Data.keys())
+print(Data.values())
+Data.update({"Tazeen":70})
+print(Data.items())
+
+Data.pop("Abeer")
+print(Data.items())
