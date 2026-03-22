@@ -1,0 +1,8 @@
+print(bool(10))
+print(True)
+print(False)
+print(type(True))
+print(bool("290"))
+print(bool(0))
+print(bool(""))
+print(bool([]))
