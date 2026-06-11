@@ -30,3 +30,5 @@ print(list2)
 
 list2.remove(90)                          #remove value 
 print(list2)
+list2[4] = 100  # Replace the element at index 4 with 100
+print(list2)

@@ -4,3 +4,4 @@ print(letter.replace("<|Name|>","Husnena").replace("<|Date|>","14 Aguest")) # re
 #Third program
 name="I an a student."
 print(name.find("  "))
+print(name.find("an"))
