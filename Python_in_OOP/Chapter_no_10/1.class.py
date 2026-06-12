@@ -8,3 +8,8 @@ print(obj1.name,obj1.Lenguage)
 
 obj2=person()
 print(obj2.name,obj2.Lenguage)
+
+class student:
+    name="Abeer"
+s1=student()
+print(s1.name)

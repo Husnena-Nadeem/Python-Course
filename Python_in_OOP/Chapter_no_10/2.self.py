@@ -10,3 +10,14 @@ class person:
 obj1=person()
 obj1.getinfo()
 
+class student:
+
+	#paramaterized constructor
+	def __init__(self,fullname): #self is a referance of object 
+		print("adding new student :")
+		self.name = fullname
+          
+s1 = student("Abeer")
+print(s1.name)
+s2 = student("Ali")
+print(s2.name)
